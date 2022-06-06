@@ -1,0 +1,12 @@
+name: AntiBuild
+version: '${project.version}'
+main: sk.adr3ez_.antibuild.AntiBuild
+api-version: 1.18
+softdepend: [ PlaceholderAPI ]
+authors: [ Adr3ez_ ]
+description: Simple antibuild plugin for lobbies.
+website: darklabs.cz
+commands:
+  antibuild:
+    aliases:
+      - ab

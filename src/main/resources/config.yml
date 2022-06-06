@@ -1,0 +1,51 @@
+#This plugin has been made by Adr3ez_ Slovak developer.
+#If you like this plugin please leave ★★★★★ review on spigot page.
+#Plugin page: //Goes here\\
+Messages:
+  #Just simple in-chat messages.
+  noBuild: "&8[&6&lAntiBuild&8] &cYou are not allowed to build here!"
+  noDestroy: "&8[&6&lAntiBuild&8] &cYou are not allowed to destroy blocks here!"
+  noPerms: "&8[&6&lAntiBuild&8] &cYou are not allowed to do that!"
+  toggle: "&8[&6&lAntiBuild&8] &7You toggled buildmode. &8(&6%mode%&8)"
+  toggledto: "&8[&6&lAntiBuild&8] &7You toggled buildmode to &6%player%&7. &8(&6%mode%&8)"
+  toggledby: "&8[&6&lAntiBuild&8] &7Player &6%player%&7 has toggled buildmode for you. &8(&6%mode%&8)"
+  playernull: "&8[&6&lAntiBuild&8] &cThis player isn't online!"
+  reload: "&8[&6&lAntiBuild&8] &7Plugin files has been reloaded!"
+  placeholder:
+    ton: "&aon"
+    toff: "&coff"
+
+  #You can allow title below inside Settings.
+  title:
+    noBuild:
+      title: "&c&lError!"
+      subtitle: "&cYou can't do that!"
+      fadeIn: 5 #<- These numbers are in ticks.
+      stay: 10
+      fadeOut: 5
+    noDestroy:
+      title: "&c&lError!"
+      subtitle: "&cYou can't do that!"
+      fadeIn: 5 #<- These numbers are in ticks.
+      stay: 10
+      fadeOut: 5
+
+Settings:
+  #on join players with permission will automatically be blacklisted from protection until they use /antibuild off
+  auto-allowed-with-permission: false
+  #Please leave on true for any updates I release. This will provide you bugfixes and some updates in the future.
+  send-update-notification: true
+  #If any value inside title is set to true, you should use formatting of message like this:
+  title:
+    noBuild: false
+    noDestroy: false
+
+#You can change this permission by any value you want to be :D
+Permissions:
+  use: "antibuild.use"
+  update: "antibuild.update"
+
+#Set in which worlds will be skipped protection.
+Blacklisted-worlds:
+  - ExampleBlacklistedWorld
+
