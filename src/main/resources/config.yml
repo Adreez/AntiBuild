@@ -1,6 +1,6 @@
 #This plugin has been made by Adr3ez_ Slovak developer.
 #If you like this plugin please leave ★★★★★ review on spigot page.
-#Plugin page: //Goes here\\
+#Plugin page: https://www.spigotmc.org/resources/antibuild-lightweight-solution-to-protect-worlds.102472/
 Messages:
   #Just simple in-chat messages.
   noBuild: "&8[&6&lAntiBuild&8] &cYou are not allowed to build here!"
@@ -35,7 +35,7 @@ Settings:
   auto-allowed-with-permission: false
   #Please leave on true for any updates I release. This will provide you bugfixes and some updates in the future.
   send-update-notification: true
-  #If any value inside title is set to true, you should use formatting of message like this:
+  #If you want to use title mode or not.
   title:
     noBuild: false
     noDestroy: false

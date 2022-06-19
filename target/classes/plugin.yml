@@ -1,7 +1,7 @@
 name: AntiBuild
-version: '1.0-Dev'
+version: '1.0.1'
 main: sk.adr3ez_.antibuild.AntiBuild
-api-version: 1.18
+api-version: 1.13
 softdepend: [ PlaceholderAPI ]
 authors: [ Adr3ez_ ]
 description: Simple antibuild plugin for lobbies.

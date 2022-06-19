@@ -72,12 +72,12 @@ public class commands implements CommandExecutor {
                         }
                     }
                 } else if (args[0].equalsIgnoreCase("reload")) {
-                    AntiBuild.config.reloadFiles();
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&',
                             AntiBuild.config.get().getString("Messages.reload"))
                     );
+                    AntiBuild.reload();
                 } else {
-                    sender.sendMessage("This command doesn't exist!");
+                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', help));
                 }
             } else {
                 sender.sendMessage(ChatColor.translateAlternateColorCodes('&', help));
